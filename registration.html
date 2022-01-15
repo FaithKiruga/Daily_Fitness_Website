@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <meta charset="utf-8">
+     <link rel="stylesheet" href="normalize.css">
+     <link rel="stylesheet" href="main.css">
+     <link rel="stylesheet" href="responsive.css">
+     <title>fay/Daily fitness</title>
+ </head>
+    <body>
+        <header>
+            <a href="index.html" id="logo">
+             <h1>THE DAILY FITNESS COMPANY</h1>
+             <h2>WE CARE ABOUT YOUR HEALTH</h2>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="registration.html" class="selected">Registration</a></li>
+                    <li><a href="login.html">Log In</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="wrapper">
+            <section>
+               <form method="POST">
+                   FIRST NAME:
+                   <input type="text" name="FNAME" required><br><br>
+                   LAST NAME:
+                   <input type="text" name="LNAME" required><br><br>
+                   USERNAME:
+                   <input type="text" name="USERNAME" required><br><br>
+                   PHONE NUMBER:
+                   <input type="number" name="PHONE NUMBER" required><br><br>
+                   EMAIL:
+                   <input type="email" name="email" required><br><br>
+                   PASSWORD: 
+                   <input type="password" name="psw"required> <br><br>
+                   CONFIRM PASSWORD:
+                   <input type="password" name="psw"required> <br><br>
+                   <button type="submit" id="alertconfirm">save</button>
+                   <button type="reset">Reset</button><br><br>
+                   
+               </form>
+               <script src="alert.js"></script>
+            </section>
+            <footer>
+                    <p>&copy; 2020 Daily Fitness</p>
+            </footer> 
+        </div>
+    
+  </body>
+</html>

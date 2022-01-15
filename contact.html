@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <meta charset="utf-8">
+     <link rel="stylesheet" href="normalize.css">
+     <link rel="stylesheet" href="main.css">
+     <link rel="stylesheet" href="responsive.css">
+     <title>fay/Daily fitness</title>
+ </head>
+    <body>
+        <header>
+            <a href="index.html" id="logo">
+             <h1>THE DAILY FITNESS COMPANY</h1>
+             <h2>WE CARE ABOUT YOUR HEALTH</h2>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html" class="selected">Contact us</a></li>
+                    <li><a href="registration.html">Registration</a></li>
+                    <li><a href="login.html">Log In</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="wrapper">
+            <section id="primay">
+               <p>
+                   <h3>Want to join us?</h3>
+                   <form>
+                    <form name="regform" action="/action_page.php" onsubmit="return validateForm()" method=""post">
+                        YOUR NAME: <input type="text" name="name" required><br><br>
+                        YOUR PHONE NUMBER: <input type="number" name="phonenumber" required><br><br>
+                        YOUR EMAIL: <input type="email" name="email" required><br><br>
+                        REMARKS: <textarea name="remarks" rows="10" cols="30">remarks</textarea><br><br>
+                         <input type="submit" value="Send" required>
+                         <input type="reset" value="Reset" required><br><br>
+                   </form>
+               </p>
+            </section>
+            <section id="secondary">
+               <h4>How well to reach us</h4>
+               <p>
+                  
+                <img src="twi.png" alt="twitter logo" class="social-icon"> @dailyFitness<br>
+                <img src="fb.png" alt="Facebook logo" class="social-icon"> dailyFitness<br>
+                <img src="IG.jpg" alt="IG logo" class="social-icon"> daily_Fitness<br>
+                <img src="tel.png" alt="Tel logo" class="social-icon"> +254712345678 <br><br>
+                Or you can write us an email  at <dailyFitness@gmail class="com">dailyFitness@gmail.com</dailyFitness@gmail>
+                               
+               </p>
+            </section>
+            <footer>
+                    <p>&copy; 2020 Daily Fitness</p>
+            </footer> 
+        </div>
+  </body>
+</html>
